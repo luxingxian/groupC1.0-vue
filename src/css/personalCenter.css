@@ -1,0 +1,217 @@
+div,p{text-align: left;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden}
+.bgConetnt{background: url(../../static/p_bg.png);background-size: 100% auto;width: 100%;height: 9.725em;position: relative;}
+.content{position: absolute;width: 90.6%;top: 4em;left: 4.7%;}
+.userInfo{width: 100%;box-shadow: 0 20px 20px 0 rgba(0,0,0,0.08);border-radius: 10px;background-color: #fff;}
+.userMess{height: 4.3em;border-bottom: 1px solid #E4E7F0;position: relative;}
+.userInfo .userPic{position: absolute;height: 4em;width: 100%;border-radius: 100%;top: -2em;left: 0;text-align: center;display: block;}
+.userInfo .userPic img{height: 100%;width: auto;}
+.userInfo .userPic .userName{height: 0.9em;line-height: 0.9em;text-align: center;font-size:0.75em;color: #262628;margin-top: 0.3em;}
+.userPersonal{height: 3.2em;padding: 0.5em 2% 0 3%;box-sizing: border-box;}
+.userPersonal a{display: inline-block;width: 31%;position: relative;}
+.userPersonal p{text-align: center;font-size: 0.6em;color: #222328}
+.userPersonal p img{height: 1.1rem;width: 1.1rem;}
+.userPersonal img.leftLine,.userPersonal img.rightLine{height: 1.3em;width: auto;position: absolute;top: 0.45em;}
+.userPersonal img.leftLine{left: 0;}
+.userPersonal img.rightLine{right: 0;}
+.userList{background-color: #fff;box-shadow: 0 10px 30px 0 rgba(0,0,0,0.10);border-radius: 10px;margin-top: 0.8em;}
+.userList a{display: block;height: 2.15rem;border-bottom: 1px solid #E4E7F0;padding: 0 0.55em;box-sizing: border-box;}
+.userList a.borderNone{border: none;}
+.userList a p{font-size: 0.55em;color: #222;height: 2.15rem;line-height: 2.15rem;}
+.userList a img{height: 1.1rem;width: 1.1rem;vertical-align: middle;}
+.userList a img.listicon{margin-right: 0.6rem;}
+.userList a img.goto{height: 0.5rem;width: 0.3rem;margin-top: 0.825rem;}
+.bottomTab{height: 2.15em;line-height: 2.15em;border-top: 1px solid #E4E7F0;position: fixed;left: 0;bottom: 0;width: 100%;text-align: center;background-color: #fff;}
+.bottomTab a{display: inline-block;font-size: 0.55em;color: #9B9B9B;margin-top: 0.25rem;}
+.bottomTab a.IconMy{margin-left: 5rem;color: #3B55E7;}
+.bottomTab a p{height: 0.95rem;line-height: 0.95rem;width: 2.15rem;text-align: center;}
+.bottomTab a img{height: 0.95rem;width: 0.95rem;}
+/*===========我的页面=======*/
+.login .loginBg{background-image: url(../../static/login_bg.png);height: 12.875em;padding-top: 1.625em;box-sizing: border-box;background-size: 100% auto;width: 100%;position: relative;}
+.login .account{position: absolute;width: 90.6%;top: 5.6em;left: 4.7%;background-color: #fff;box-shadow: 0 20px 20px 0 rgba(0,0,0,0.08);border-radius: 10px;padding-top: 0.5em;}
+.login .hotelTitle h3,.login .hotelTitle p{font-size: 1.1em;color: #fff;margin-left: 4.7%;}
+.account .accountMess{padding: 0.75em 0.75em 1.25em 0.75em;box-sizing: border-box;border-bottom: 1px solid #E4E7F0;}
+.account .label{height: 1.35rem;line-height: 1.35rem;margin-top: 0.5em;font-size: 0.65rem;color: #A1A6BA;}
+.account .label img{height: 0.75rem;width: 0.75rem;margin-right: 0.25em;vertical-align: middle;}
+.account .inputBox{height: 1.85rem;position: relative;width: 100%;}
+.account .inputBox input{background: #F8F8FB;border-radius: 10px;height: 1.85rem;line-height: 1.85rem;padding-left:0.5em;box-sizing: border-box;width: 100%;font-size: 0.75em;color: #222328}
+.account .inputBox input::-webkit-input-placeholder{color: #A1A6BA;}
+.account .inputBox img.yan{height: 1.65em;width: 3.3em;position: absolute;top: 0.1em;right: 0.1em;}
+.account .inputBox .validButton{display: inline-block;height: 1.65rem;line-height:1.65rem;width: 3.6rem;background: #40D19E;border-radius: 10px;font-size: 0.5rem;color: #fff;position: absolute;top: 0.1rem;right: 0.1rem;text-align: center;}
+.account .inputBox .validButton.agin{background: #A1A6BA;color: #fff;}
+.loninButton{padding: 0.5em 0.75em;}
+.loninButton span{display: inline-block;height: 2rem;line-height: 2rem;text-align: center;width: 100%;background: #3B55E7;border-radius: 10px;color: #fff;font-size: 0.75em;}
+/*=========登录页面======*/
+.collect{background-color: #f1f2f7;}
+.marTop{margin-top: 2.2em;}
+.collectList .roomPic{position: relative;}
+.collectList .roomPic img{width: 100%;height: auto;float: left;}
+.collectList .roomPic img.collectIcon{height: 1.25em;width: 1.25em;position: absolute;top: 0.5rem;right: 0.5rem;}
+.collectList .roomPic .roomPrice{position: absolute;bottom: 0.4rem;left: 0;height: 2.5rem;line-height: 2.5rem;width: 5.5rem;padding-left: 0.5em;box-sizing: border-box;color: #fff;font-size: 1.2em;opacity: 0.8;background: #222328;}
+.collectList .roomPic .roomPrice span{font-size: 0.5em;margin-left: 0.3em;}
+.roomMess .roomName{height: 3rem;padding: 0.5em;box-sizing: border-box;background-color: #fff;}
+.roomMess .roomName span{display: inline-block;width: 70%;font-size: 0.75em;color: #222328;line-height: 1rem;}
+.roomMess .roomName .bookBtn{height: 2rem;line-height: 2rem;width: 28%;float: right;text-align: center;color: #fff;font-size: 0.75rem;background: #3B55E7;border-radius: 10px;}
+.loseContent{margin-top: 0.5em;background-color: #fff;padding-bottom: 1.2rem;}
+.loseTitle{height: 2rem;line-height: 2rem;font-size: 0.75rem;color: #222328;padding-right: 0.5rem;border-bottom: 1px solid #E4E7F0;background: url(../../static/iconDown.png) no-repeat 96% center;background-size: 0.75em 0.75em;}
+.loseTitle.iconUp{background-image: url(../../static/iconUp.png);}
+.loseTitle span{height: 0.75em;padding-left: 0.45rem;border-left:5px solid #3B55E7;}
+.loseTitle img{height: 0.75em;width: 0.75em;float: right;margin-top: 0.625rem;}
+.loseList{padding: 0 0.75em;}
+.loseList p{height: 1.85rem;line-height: 1.85rem;font-size: 0.6em;color: #A1A6BB;border-bottom: 1px solid #E4E7F0;}
+
+/*=======我的收藏页面========*/
+.booking{background-color:#F1F2F7;}
+.topPic{position: relative;}
+.topPic .roomPic{width: 100%;height: auto;float: left;}
+.topPic .iconBack{height: 0.95em;width: 0.95em;position: absolute;top: 0.5em;left: 0.5em;}
+.topPic .iconShare{height: 0.95em;width: 0.95em;position: absolute;top: 0.5em;right: 0.5em;}
+.messContent{border-bottom:1px solid #E4E7F0 ;padding-left: 1em;position: relative;background-color: #fff;padding-top: 0.2em;padding-bottom: 0.6rem}
+.messContent .roomPrice{font-size: 1.2em;color: #DB4226;height: 1.675em;}
+.messContent .roomName{font-size: 0.75em;color: #222328;height: 1.05em;}
+.messContent .sale{font-size: 0.5rem;color: #A1A6BB;padding: 0.5rem 0.5rem 0 0;box-sizing: border-box;line-height: 1rem;}
+.messContent .sale span{display: inline-block;font-size: 0.6rem;color: #3B55E7;height: 0.85rem;line-height: 0.85rem;width: 2.75rem;text-align: center;border: 1px solid #3B55E7;border-radius: 2.5rem;margin-right: 0.4em;}
+.messContent .paymentIcons{position: absolute;top: 0;right: 0.3em;}
+.messContent .paymentIcons img{height: 1.15em;width: 0.85em;}
+.infoContent{padding:0.3em 0 0.3em 1em;background-color: #fff;}
+.infoContent p{height: 1.4rem;line-height: 1.4rem;font-size: 0.6rem;color: #A1A6BB;}
+.facilityContent{margin-top: 0.5em;background-color: #fff;padding-bottom: 2.2rem;}
+.facilityContent .facilityTitle{height: 2rem;line-height: 2rem;font-size: 0.75rem;color: #222328;padding-right: 0.5rem;border-bottom: 1px solid #E4E7F0;background: url(../../static/iconDown.png) no-repeat 96% center;background-size: 0.75em 0.75em;}
+.facilityContent .facilityTitle.iconUp{background-image: url(../../static/iconUp.png);}
+.facilityContent .facilityTitle span{height: 0.75em;padding-left: 0.45rem;border-left:5px solid #3B55E7;}
+.facilityList{height: 3em; width: 90%;margin: 0 auto;  position: relative; overflow: hidden;transition: all 1s}
+.facilityList.showAll{height: auto;}
+.facilityList ul li p img{ display: block;}
+.facilityList ul li p img{ width: 1.4em; height: 1.4em; margin:0.75em 0.5em;}
+.facilityList ul li{height: 2.5em;width: 50%; line-height:3em; }
+.facilityList ul li .list_text2{ font-size: 0.6em; color:#000;}
+.bottomBar{height: 2rem;width: 100%;position: fixed;bottom: 0;left: 0;}
+.bottomBar p{height: 2rem;}
+.bottomBar .phone{display: block;width: 26.5%;color: #fff;font-size: 0.5rem;text-align: center;height: 2rem;line-height: 2rem;float: left;background-color:#7587ee;
+}
+.bottomBar .phone img{height: 1rem;width: 1rem;}
+.bottomBar .phone i{line-height: 0;margin-top: -0.5rem;display: block;}
+.bottomBar .bookingBtn{font-size: 0.75rem;color: #FFFFFF;display: inline-block;width: 73.5%;text-align: center;height: 2rem;line-height: 2rem;display: block;float: left;background: #3B55E7;}
+.bottomBar .bookingBtn.phoneBook{width: 100%;}
+.bottomBar .bookingBtn.roomFull{background-color: #A1A6BB;color: #fff;}
+/*=========立即预定=======*/
+
+.w_content .details_refund{margin-top: 2.65rem;}
+.w_content .details_refund .details_refund_content{width: 100%;background: #fff;margin-bottom: 0.5em;background: #FFF;min-height: 1em;padding: 0 0.6em;box-sizing: border-box;}
+.w_content .details_refund .details_refund_content p{width: 100%;  font-size: 0.65em; padding: 0.5em 0;}
+.w_content .details_refund .details_refund_content p span:first-child{width: 36%;float: left;color: #a1a6ba;}
+.w_content .details_refund .details_refund_content p span:last-child{display: inline-block; width: 64%;color: #262628;}
+.w_content .details_refund .details_refund_content p span.details_red{color: #f36347;}
+.f_center_text{color: #a1a6ba; font-size: 0.55em; padding: 1em 0.7em; text-align: center;}
+/*=======退款详情=======*/
+
+.list_box{width:100%; margin-top:2.2em;}
+.tabTitle{height: 1.75rem;border-bottom: 1px solid #d1d1d2;background-color: #fff;color: #a1a6ba;font-size: 0.7rem;}
+.tabTitle ul li{float: left;height: 1.75rem;line-height: 1.75rem;width: 25%;text-align: center;}
+.tabTitle ul li.active{color: #3b55e7;position: relative;}
+.tabTitle ul li.active span{display: inline-block;height: 0.125rem;width: 0.7rem;background-color: #3b55e7;position: absolute;bottom: -1px;left: 50%;margin-left: -0.35rem;}
+.orderList{padding: 0.5rem 0.5rem 0 0.5rem;width: 100%;box-sizing: border-box;}
+.kapian{ width: 100%; height:8.925rem ; background: url(../../static/bg_kapian.png) no-repeat center; background-size: 100% 100%; margin-bottom: 0.25rem;padding: 0 0.4rem;box-sizing: border-box;font-size: 0.65em;color: #a1a6ba;}
+.kapian .s_rcot p .black{color: #262628;height: 1.95rem; line-height: 1.95rem;font-weight: 500;}
+.kapian .price{color: #262628;}
+.kapian.complete{color: #a1a6ba;background-image: url(../../static/wancheng.png);position: relative;}
+.kapian.complete .s_rcot p .black{color: #a1a6ba;}
+.kapian.complete .price{color: #a1a6ba;}
+.btns{position: absolute;bottom: 0.4rem;left: 0;width: 100%;padding: 0 0.4rem;box-sizing: border-box;display: none;}
+.btns a{display: inline-block;float: right;height: 1.4rem;line-height: 1.4rem;width: 3.6rem;text-align: center;color: #3b55e7;font-size: 0.65rem;border: 1px solid #3b55e7;border-radius: 6px;margin-left: 0.25rem;}
+.complete .btns{display: block;}
+.kapian .s_rcot p span{height: 1.25rem;line-height: 1.25rem; }
+.kapian .s_rcot .hotelName{ width: 12.9em; font-size:0.7rem;;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.kapian .s_red{ color: #fb423e;}
+.kapian .s_rcot .s_tet{ margin-top: 0.7em;}
+.kapian .s_rcot .s_tet .left{ margin-left: 1.75em;}
+.kapian .last_left{ width: 9em;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.kapian .s_rcot .s_bot .s_next{margin-left: 1.75em;}
+
+/*=========我的订单========*/
+
+.subOrder{background-color: #fff;}
+.l_card{margin-top: 2rem;}
+.l_card .l_content{background: url(../../static/f_tijiao.png);height:11.5em;background-size:100% 100%;padding:0 0.75em;box-sizing: border-box;font-size: 0.75em;color: #fff;margin-bottom: 0.6em;}
+.l_card .hotel_name{height: 2rem;line-height: 2rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.l_card .hotel_mess{padding-top:0.2em;box-sizing: border-box;}
+.l_card .hotel_mess p{height: 1.3rem;line-height: 1.3rem;width: 100%;color: #fff;}
+.l_card .hotel_mess p span{margin: 0 0.5em 0 .15em;}
+.f_img{ display: inline-block; width: 0.45em; height: 0.725em; margin-left: 0.5em; background: url(../../static/f_fanhui.png) no-repeat center; background-size: 100% 100%;}
+.room_mess .room_table{border: 1px solid #e9e9e9;font-size: 0.75em;box-sizing: border-box;}
+.room_mess .room_table .ta1{border-bottom:1px solid #e9e9e9;}
+.room_mess .room_table .ta1 p{height: 2rem;line-height: 2rem;float: left;}
+.room_mess .room_table .left{width: 30%;color: #a3a3a3;padding-left: 1.25em;box-sizing: border-box;font-size: 0.7rem;}
+.room_mess .room_table .right{width: 70%;color: #3b3b3b;box-sizing: border-box;}
+.room_mess .room_table .right.p12 span{padding-left: 2.5em;}
+.room_mess .room_table .right.p12 img{width: 0.6rem;vertical-align: middle;margin-right:1.35em ;float: right;margin-top: 1.2em;height: 0.5em;}
+.room_mess .room_table .room_num{padding:0.65em 0;border-bottom: 1px solid #e9e9e9;}
+.room_mess .room_table .room_num ul{margin-left: 0.25em;}
+.room_mess .room_table .room_num ul li{float: left;height: 1.5rem;line-height: 1.5rem;width: 1.5rem;color: #3b3b3b;font-size: 0.7em;text-align: center;border-radius: 0.2rem;border:1px solid #e9e9e9;margin: 0.5em;box-sizing: border-box;}
+.room_mess .room_table .room_num ul li.active{border-color: #1548ad;}
+.room_person{border-bottom: 1px solid #e9e9e9;}
+.room_person .room_person_left{float: left;width: 30%;color: #a3a3a3;font-size: 0.7rem;padding-left: 1.25em;box-sizing: border-box;}
+.room_person .room_person_right{float: left;width: 70%;}
+.room_person .room_person_right p{height: 2rem;line-height: 2rem;border-bottom: 1px solid #e9e9e9;width: 100%;display: block;}
+.room_person .room_person_right p:last-child{border-bottom: none;}
+.room_person .room_person_right p input{height: 1.6em;color: #3b3b3b;font-size: 0.7rem;padding-left: 2.5em;box-sizing: border-box;width: 90%;}
+.room_person .room_person_right p input::-webkit-input-placeholder{color: #e0e0e0;}
+
+.room_phone.room_phone_border{border-bottom: 1px solid #e9e9e9;}
+.room_phone p{float: left;height: 2rem;line-height: 2rem;}
+.room_phone p.right input{height: 1.5em;color: #3b3b3b;font-size: 0.7rem;padding-left: 2.5em;width: 90%;box-sizing: border-box;}
+.room_phone p.right input::-webkit-input-placeholder{color: #e0e0e0;}
+.room_time{color: #878787;font-size: 0.65em;height: 1.8rem;line-height: 1.8rem;background-color: #f4f7fa;margin-top: 1.4em;text-align: center;}
+.sale{font-size: 0.65rem;height: 1.5rem;line-height: 1.5rem;padding:0 1em;white-space: nowrap;overflow: hidden;text-overflow: ellipsis}
+.zhifu{color: #3b3b3b;font-size: 0.65em;height: 2rem;line-height: 2rem;padding:0 1em ;box-sizing: border-box;border-top: 1px solid #e9e9e9;}
+.zhifu label{height: 0.85rem;width: 0.85rem;border-radius: 100%;display: inline-block;position: relative;float: right;margin-top: 0.6rem;background:url(../../static/icon_radio1.png) no-repeat;background-size:100% 100%;}
+.zhifu label.f_active{background:url(../../static/icon_radio.png) no-repeat;background-size:100% 100%;}
+.zhifu input{display: none;}
+.zhifu_e{border-bottom: 1px solid #e9e9e9;}
+.zhifu_e a.ajuan{float: right;width: 5.45rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;color: #ff3030;}
+.zhifu_e a.ajiao{float: right;background: url(../../static/s_ajiao.png) no-repeat;width: 0.425rem;height: 0.7rem;background-size: 100% 100%;margin-top: 0.65rem;}
+.room_mess .dan_dec{padding:0 1em 0.5em 1em;color: #a1a6ba;font-size: 0.5em;line-height: 1.5em;}
+.f_foot_height.f_on{ line-height: 2.325em;}
+.room_kefu{background-color: #fff;color: #999;font-size: 0.6em;text-align: center;margin-bottom: 2.325rem;height: 2.65rem;line-height: 2.65rem;}
+.room_foot{height: 2.325em; background-color: #f2f2f2;padding:0 0.75em 0 0.5em;position: fixed;bottom: 0;left: 0;right: 0;width: 100%;}
+.room_foot .left p.total_press{color: #000;font-size: 0.65rem;height: 2.325rem;line-height: 2.325rem;}
+.room_foot .left p.youhui{color: #f33;font-size: 0.55em;height: 2.325rem;line-height: 2.325rem;}
+.f_room_btn{color: #000;font-size: 0.65rem;height: 2.325rem;line-height: 2.325rem;}
+.f_foot_list{width: 67%; float: left;}
+.room_foot .sub_btn{width: 27%;float: left; padding-right: 0.5em;}
+.room_foot .sub_btn a{display: inline-block;height: 1.5rem;line-height: 1.5rem;width: 4rem;border:1px solid #f3490c;background-color: #f76531;color: #fff;font-size: 0.7em;text-align: center;border-radius: 6px;margin-top: 0.4rem;box-sizing: border-box;}
+.yan_tip{height: 1.5rem;line-height: 1.5rem;width:12em ;text-align: center;background-color: #393939;color: #fff;font-size: 0.65em;position: fixed;top:30%;left:50%;margin-left: -6em;border-radius: 6px;display: none;}
+
+/*弹窗*/
+
+.tan_drop{background-color: rgba(0,0,0,.4);position: fixed;top:0;bottom: 0;left:0;right: 0;display: none;z-index: 101;}
+.subOrder .tan_box{width: 11em;background-color: #fff;border-radius: 0.3rem;position: absolute;top:30%;left:50%;margin-left: -5.5em;}
+.subOrder .tan_box .text{text-align: center;color: #424242;font-size: 0.65em;margin: 2.7em 0 1.35em 0;}
+.subOrder .tan_box .room_btn{text-align: center;}
+.subOrder .tan_box .room_btn a{text-align: center;display: inline-block;height: 1.45rem;line-height: 1.45rem;width: 8rem;border-radius: 1.45rem;background-color: #0e76d8;color: #fff;font-size:0.65rem ;border:1px solid #0e76d8;}
+.subOrder .tan_box .room_btn.btn2 a{background-color: #fff;margin: 0.75em 0 1.25em 0;color: #0e76d8;border:1px solid #0e76d8;box-sizing: border-box;}
+.subOrder .tan_box img{height: 2.5em;width: 2.5em;position: absolute;top:-1.25em;left:50%;margin-left: -1.25em;}
+.subOrder .tan2 .tan_box .room_btn,.tan3 .tan_box .room_btn,.tan4 .tan_box .room_btn{margin: 1em 0 1.2em 0;}
+.subOrder .tan4 .tan_box{padding-top:0.75em;}
+.subOrder .tan4 .tan_box .room_btn a{width: 4rem;}
+.subOrder .tan4 .tan_box .room_btn a.cancle{background-color: #fff;color: #1e4ba3;border:1px solid #1e4ba3;margin-right:1em ;}
+.subOrder .tan4 .tan_box p.text{margin: 0.5em 0 0 0;}
+
+/* 提交订单 */
+
+
+/*无网络弹窗*/
+.no_network{background-color: rgba(0,0,0,.4);position: fixed;top:0;bottom: 0;left:0;right: 0;z-index: 10000;display: none;}
+.tan_box{width: 11em;background-color: #fff;border-radius: 0.3rem;position: absolute;top:30%;left:50%;margin-left: -5.5em;}
+.tan_box .text{text-align: center;color: #424242;font-size: 0.65em;margin: 2.7em 0 1.35em 0;}
+.tan_box .room_btn{text-align: center;}
+.tan_box .room_btn a{text-align: center;display: inline-block;height: 1.45rem;line-height: 1.45rem;width: 8rem;border-radius: 1.45rem;background-color: #0e76d8;color: #fff;font-size:0.65rem ;border:1px solid #0e76d8;}
+.tan_box .room_btn.btn2 a{background-color: #fff;margin: 0.75em 0 1.25em 0;color: #0e76d8;border:1px solid #0e76d8;box-sizing: border-box;}
+.tan_box img{height: 2.5em;width: 2.5em;position: absolute;top:-1.25em;left:50%;margin-left: -1.25em;}
+.no_network .tan_box .room_btn{margin: 1em 0 1.2em 0;}
+
+/* 页面无数据提示页 */
+.noCollect{text-align: center;position: fixed;top: 8em;left: 0;width: 100%;}
+.noCollect img{height: 8rem;width: 8rem;display: inline-block;}
+.noCollect p{font-size: 0.75rem;color: #A1A6BA;text-align: center;}
+.toBook a{display: inline-block;height: 2rem;line-height: 2rem;width: 7.5rem;text-align: center;background: #3B55E7;border-radius: 10px;font-size: 0.75rem; color: #FFFFFF;margin-top: 0.75rem;}

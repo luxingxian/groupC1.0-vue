@@ -1,0 +1,90 @@
+body{background: #F8F8F8;}
+/*常住旅客*/
+.all{width: 100%;height: 100%;background: #F8F8F8;}
+.addPerson{width: 100%;height: 2.5em;line-height: 2.5em;background: #FFFFFF;margin-top: 2.1em;}
+.addPerson p{width: 90.6%;height: 2.5em;line-height: 2.5em;margin: auto;}
+.addPerson span{display: inline-block;font-size: 0.75em;color: #222328;}
+.addPerson i{display: inline-block;width: 1rem;height: 1rem;}
+.addDetails{width: 90.6%;height: 5.25em;margin: auto;background: #FFFFFF;margin-top: 0.5em;overflow: hidden;box-sizing: border-box;}
+.addDetails p{width: 91.3%;margin: auto;font-size: 0.6em;color: #222328;text-align: left}
+.addDetails p i{display: inline-block; color: #A1A6BB;width: 3.5rem;}
+.addDetails p em{display: inline-block;width: 0.75rem;height: 0.75rem;margin-top: -0.3em;}
+.addDetails .p1{padding-top: 1rem;}
+.addDetails .p2{padding-top: 0.5rem;}
+.addDetails .p3{padding-top: 0.5rem;}
+/*新增常住旅客*/
+.addInfor{width: 90.6%;margin: auto;margin-top: 2.6em;overflow: hidden;box-sizing: border-box;background: #FFFFFF;
+box-shadow: 0 4px 10px 0 rgba(202,202,202,0.15);border-radius: 10px;padding-bottom: 1em;}
+.addInfor .addInforAll{width: 100%;height: 14..4rem;border-bottom: 1px solid #E4E7F0;text-align: left}
+.addInfor .inforList:first-child{margin-top: 1em;}
+.addInfor .inforList{width: 89.6%;height: 3rem;margin: auto;margin-top: 0.75em;border-bottom: 1px solid #E4E7F0; position: relative;}
+.addInfor .inforList p{width: 100%;font-size: 0.6rem;color: #A1A6BA;}
+.addInfor .inforList p img{width: 0.75rem;height: 0.75rem;}
+.addInfor .inforList i{display: inline-block;color: #FF0000;vertical-align: middle;margin-right: 0.25rem;}
+.addInfor .inforList input{width: 100%;height: 1.5rem;font-size: 0.75rem;color: #222328;position: absolute;left: 0;bottom: 0;}
+.addInfor .lastList{border: none;}
+.addInfor .inforSure{width: 93.1%;height: 2rem;line-height: 2rem; margin: 0 auto;background: #3B55E7;border-radius: 10px;font-size: 0.75rem;
+color: #FFFFFF;text-align: center;margin-top: 0.75rem;border: none;}
+/*编辑常住旅客*/
+.editInfor{width: 90.6%;margin: auto;margin-top: 2.6em;overflow: hidden;box-sizing: border-box;background: #FFFFFF;
+box-shadow: 0 4px 10px 0 rgba(202,202,202,0.15);border-radius: 10px;padding-bottom: 1em;}
+.editInfor .editInforAll{width: 100%;height: 14..4rem;border-bottom: 1px solid #E4E7F0;padding-bottom: 0.75rem;text-align: left}
+.editInfor .editinforList:first-child{margin-top: 1em;}
+.editInfor .editinforList{width: 89.6%;height: 3rem;margin: auto;margin-top: 0.75em; position: relative;}
+.editInfor .editinforList p{width: 100%;font-size: 0.6rem;color: #A1A6BA;}
+.editInfor .editinforList p img{width: 0.75rem;height: 0.75rem;}
+.editInfor .editinforList i{display: inline-block;color: #FF0000;vertical-align: middle;margin-right: 0.25rem;}
+.editInfor .editinforList input{width: 100%;height: 1.5rem;font-size: 0.75rem;color: #222328;position: absolute;left: 0;bottom: 0;background: #F8F8FB;border-radius: 5px;text-indent: 0.5rem;}
+.editInfor .editinforList .idvalue{ display:inline-block;width: 100%;height: 1.5rem;line-height: 1.5rem; font-size: 0.75rem;color: #222328;position: absolute;left: 0;bottom: 0;background: #F8F8FB;border-radius: 5px;text-indent: 0.5rem;background: url(../../static/downinfor.png) no-repeat right #F8F8FB;background-size: 0.75rem 0.75rem;background-position:97% 50%;}
+.editInfor .lastList{border: none;}
+.editInfor .inforSure{width: 8.75rem;height: 2rem;line-height: 2rem;background: #3B55E7;border-radius: 10px;font-size: 0.75rem;
+color: #FFFFFF;text-align: center;margin-top: 0.75rem;margin-left:0.5rem;border: none;}
+.editInfor .infordelete{width: 4.25rem;height: 2rem;line-height: 2rem;background: #222328;border-radius: 10px;font-size: 0.75rem;
+color: #FFFFFF;text-align: center;margin-top: 0.75rem;margin-right: 0.5rem; border: none;}
+/*删除旅客*/
+.delPerson{width: 10.5rem;height: 6em;background: #FFFFFF;position: absolute;left: 50%; top: 30%; margin-left: -5.25rem; box-shadow: 0 0 20px 0 rgba(0,0,0,0.08);z-index: 3;border-radius: 10px;display: none;}
+.delPerson p{font-size: 0.65em;color: #424242;text-align: center;padding-top: 1.625em;}
+.delPerson .delPersonbtn{width: 9.125rem;margin: auto;padding-top: 1.2rem;}
+.delPerson .delPersonbtn em{display: inline-block;width: 4rem;height: 1.5rem;line-height: 1.5rem;text-align: center;font-size: 0.65em;}
+.delPerson .delPersonbtn .delcancel{border: 3px solid #3b55e7;border-radius: 40px;color: #3b55e7;}
+.delPerson .delPersonbtn .delsure{background:#3b55e7; border-radius: 40px;color: #fff;}
+/*证件类型下拉*/
+.IdType{position: fixed;top: 0;left: 0;width: 100%;height: 100%;opacity: 0.6;background: #000000;z-index: 2;display: none;}
+.IdSlider{position: fixed;left: 50%; width: 90.6%;margin-left: -7.25rem; background: #FFFFFF;box-shadow: 0 0 20px 0 rgba(0,0,0,0.08);border-top-left-radius: 10px;border-top-right-radius: 10px;z-index: 3;display: none;}
+.IdSlider p{text-align: center;font-size: 0.75rem;color: #222328;height: 2.45rem;line-height: 2.45rem;border-bottom: 1px solid #E4E7F0;}
+.IdSlider p span{margin-right: 0.5rem;font-size: 1rem;vertical-align: middle;}
+.IdSlider ul{width: 100%;height: auto;text-align: left}
+.IdSlider ul li{width: 100%;height: 1.95rem;line-height: 1.95rem;font-size: 0.65rem;color: #222328;border-bottom: 1px solid #E4E7F0;}
+.IdSlider ul li.active{color: #3B55E7;background: url(../../static/IDtrue.png) no-repeat right;background-size: 0.75rem 0.75rem;background-position:97% 50%;}
+.IdSlider ul li i{margin-left: 0.75rem;}
+/*城市下拉*/
+.citySlider{position: fixed;left: 50%; width: 90.6%;margin-left: -7.25rem; background: #FFFFFF;box-shadow: 0 0 20px 0 rgba(0,0,0,0.08);border-top-left-radius: 10px;border-top-right-radius: 10px;z-index: 3;display: none;}
+.citySlider p{text-align: center;font-size: 0.75rem;color: #222328;height: 2.45rem;line-height: 2.45rem;border-bottom: 1px solid #E4E7F0;}
+.citySlider p span{margin-right: 0.5rem;font-size: 1rem;vertical-align: middle;}
+.citySlider ul{width: 100%;height: auto;text-align: left}
+.citySlider ul p{padding-left: 0.75rem;text-align: left;font-size: 0.6rem;color: #A1A6BB; box-sizing: border-box;}
+.citySlider ul p i{font-size: 0.75rem;color: #3B55E7;}
+.citySlider ul li{width: 100%;height: 1.95rem;line-height: 1.95rem;font-size: 0.65rem;color: #222328;border-bottom: 1px solid #E4E7F0;}
+.citySlider ul li.active{color: #3B55E7;background: url(../../static/IDtrue.png) no-repeat right;background-size: 0.75rem 0.75rem;background-position:97% 50%;}
+.citySlider ul li i{margin-left: 0.75rem;}
+/*查找酒店*/
+.serachAll{width: 100%;height: 1.65rem;line-height: 1.65rem;margin: 2.55rem 0rem 0.5rem 0rem;}
+.serachAddress{width: 36.5%;height: 100%;padding-left:0.55rem;font-size: 0.75rem;color: #222328; box-sizing: border-box;background: url(../../static/serachAddress.png) no-repeat right;background-size: 0.75rem 0.75rem;background-position:85% 50%;
+}
+.serachAddress p{width: 4rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.serachInput{width: 63.5%;height: 100%;}
+.serachInput input{float: left; font-size: 0.625rem;color: #C6C6C6;width: 9.5rem;height: 1.65rem;line-height: 1.65rem; text-indent: 3em;
+border-radius: 100px;background: url(../../static/serachInput.png) no-repeat left #F1F2F7;background-size: 0.95rem 0.95rem;background-position:6% 50%;}
+.serachList{width: 100%;height: auto;overflow: hidden;box-sizing: border-box;}
+.serachList ul{width: 100%;height: auto;box-sizing: border-box;}
+.serachList ul li{float: left; width: 4.9rem;height: 1.1rem;line-height: 1.1rem;font-size: 0.5rem;color: #222328;border: 1px solid #222328;border-radius: 100px;text-align: left;padding-left: 0.8rem;margin-left: 0.65rem;margin-bottom: 0.4rem; background: url(../../static/seracList.png) no-repeat right;background-size: 0.5rem 0.25rem;background-position:90% 50%; box-sizing: border-box;}
+.productList{ width: 100%;height: 13.5rem;}
+.productList .listImg{ width: 100%;height: 10.65rem;position: relative;}
+.productList .listImg .w_collect{position: absolute;top: 0.425rem;right: 0.575rem}
+
+.productList .listImg .priceList{position: absolute;top: 7.75rem;left: 0rem;width: 5rem;height: 2.5rem;line-height: 2.5rem;opacity: 0.8;background: #222328;color: #FFFFFF;padding-left: 0.375rem;box-sizing: border-box;font-size: 0.8rem;}
+.productList .listImg .priceList i{font-size: 0.4rem;margin-left: 0.4rem;}
+.productList .listDetail{width: 100%;height: 2.85rem;}
+.productList .listDetail .listName{font-size: 0.75rem;color: #222328;width: 9.675rem;padding: 0.55rem 1rem 0.5rem 0.5rem;}
+.productList .listDetail .listBtn{width: 4.25rem;height: 2rem;line-height: 2rem;text-align: center; background: #3B55E7;border-radius: 10px;font-size: 0.75rem;
+color: #FFFFFF;margin-right: 0.55rem;margin-top: 0.45rem;}
